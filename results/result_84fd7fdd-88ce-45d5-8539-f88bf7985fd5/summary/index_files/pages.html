@@ -1,0 +1,485 @@
+<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Rapport de test de performance</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="http_pages_template">
+<div id="leftnavigation">
+<div class="divHeader">Rapport de Test NeoLoad</div>
+<div class="menu_wrapper">
+<div class="item">
+<a href="./summary.html">Synth&egrave;se</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.resultssummary">Synth&egrave;se des R&eacute;sultats</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.statisticssummary">Synth&egrave;se des Statistiques</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.hotspots">Points chauds</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.errors">Erreurs</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.alerts">Alertes</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.all">Statistiques g&eacute;n&eacute;rales</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.transactions">Statistiques des transactions</a>
+</div>
+<div class="item">
+<a href="./settings.html">Contexte d'ex&eacute;cution</a>
+</div>
+<div class="item">
+<a href="./servers.html">Serveurs</a>
+</div>
+<div class="item">
+<a href="./populations.html">Populations</a>
+</div>
+<div class="item">
+<a href="./virtual-users.html">Parcours Utilisateur</a>
+</div>
+<div class="item">
+<a href="./transactions.html">Transactions</a>
+</div>
+<div class="item">
+<a href="./pages.html">Pages</a>
+</div>
+<div class="item">
+<a href="./medias.html">Contenus M&eacute;dias</a>
+</div>
+<div class="item">
+<a href="./pushmessages.html">Messages push</a>
+</div>
+<div class="item">
+<a href="./monitors.html">Moniteurs</a>
+</div>
+<div class="item">
+<a href="./alerts.html">Alertes</a>
+</div>
+<div class="item">
+<a href="./scenario_PetstoreScenario.html">Sc&eacute;nario</a>
+</div>
+<div class="title">Graphes principaux</div>
+<div class="item">
+<a href="./Graphes principaux_pages.average.html">Temps de r&eacute;ponse moyen (pages)</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_requests.average.html">Temps de r&eacute;ponse moyen (requ&ecirc;tes)</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_transactions.average.html">Temps de r&eacute;ponse moyen (Transactions)</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_hits.html">Requ&ecirc;tes par seconde</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_errors.html">Erreurs</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_throughput.html">D&eacute;bit</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_pages.average.vu.html">Temps de r&eacute;ponse moyen en fonction de la charge</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_percentile.html">Distribution de la dur&eacute;e des Transactions</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_alerts.html">Top 10 des premi&egrave;res alertes</a>
+</div>
+</div>
+<div style="float: right;">
+<img style="margin-top: 10px; margin-bottom: 0px; margin-right: 4px" src="./images/logo_neotys.png"></div>
+</div>
+<div id="content">
+<div class="divHeader">Pages</div>
+<div style="width: 100%; height: 20px;" id="report.shared">
+<div style="float:left" class="h1" id="statistics_summary_title">Conteneurs partag&eacute;s</div>
+</div>
+<div class="wrapper shared" align="center">
+<div align="center">
+<table class="hierarchical_shared_statistics_content_template">
+<tr>
+<th width="10%">Min</th><th width="10%">Moy</th><th width="10%">Max</th><th width="10%">Nb</th><th width="10%">Err</th><th width="10%">Err %</th><th width="10%">Profil SLA</th>
+</tr>
+<tr>
+<td colspan="7" class="line2">Liste vide</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="user-tableheader" style="width: 100%; height: 20px;" id="Buyer">
+<div style="float:left" class="h1" id="statistics_summary_title">Buyer</div>
+<a href="#Searcher_trycatch" class="navigation next" title="Searcher_trycatch"></a>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="hierarchical_statistics_content_template">
+<tr>
+<th width="10%">Min</th><th width="10%">Moy</th><th width="10%">Max</th><th width="10%">Nb</th><th width="10%">Err</th><th width="10%">Err %</th><th width="10%">Profil SLA</th>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped virtualuser" style="margin-left: 00px">Buyer</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,069</td><td class="line2right bordered">0,759</td><td class="line2right bordered">1,68</td><td class="line2right bordered">16</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container-blue" style="margin-left: 10px">Actions</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,472</td><td class="line1right bordered">0,542</td><td class="line1right bordered">0,658</td><td class="line1right bordered">14</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Enter store</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,061</td><td class="line2right bordered">0,071</td><td class="line2right bordered">0,156</td><td class="line2right bordered">29</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,027</td><td class="line1right bordered">0,032</td><td class="line1right bordered">0,112</td><td class="line1right bordered">30</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,028</td><td class="line2right bordered">0,039</td><td class="line2right bordered">0,126</td><td class="line2right bordered">29</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Sign-in</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,057</td><td class="line1right bordered">0,061</td><td class="line1right bordered">0,072</td><td class="line1right bordered">27</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/signonForm.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,057</td><td class="line2right bordered">0,061</td><td class="line2right bordered">0,072</td><td class="line2right bordered">27</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Submit</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,05</td><td class="line1right bordered">0,07</td><td class="line1right bordered">0,081</td><td class="line1right bordered">26</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/signon.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,05</td><td class="line2right bordered">0,07</td><td class="line2right bordered">0,081</td><td class="line2right bordered">26</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Select category</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,014</td><td class="line1right bordered">0,027</td><td class="line1right bordered">0,039</td><td class="line1right bordered">24</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCategory.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,014</td><td class="line2right bordered">0,027</td><td class="line2right bordered">0,039</td><td class="line2right bordered">24</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Select product</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,015</td><td class="line1right bordered">0,034</td><td class="line1right bordered">0,105</td><td class="line1right bordered">23</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewProduct.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,015</td><td class="line2right bordered">0,034</td><td class="line2right bordered">0,105</td><td class="line2right bordered">23</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Select item</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,056</td><td class="line1right bordered">0,061</td><td class="line1right bordered">0,072</td><td class="line1right bordered">23</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewItem.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,056</td><td class="line2right bordered">0,061</td><td class="line2right bordered">0,072</td><td class="line2right bordered">23</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Add to Cart</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,034</td><td class="line1right bordered">0,038</td><td class="line1right bordered">0,044</td><td class="line1right bordered">22</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/addItemToCart.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,034</td><td class="line2right bordered">0,038</td><td class="line2right bordered">0,044</td><td class="line2right bordered">22</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Payement</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,127</td><td class="line1right bordered">0,14</td><td class="line1right bordered">0,156</td><td class="line1right bordered">14</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/checkout.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,06</td><td class="line2right bordered">0,065</td><td class="line2right bordered">0,076</td><td class="line2right bordered">18</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/newOrderForm.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,033</td><td class="line1right bordered">0,036</td><td class="line1right bordered">0,041</td><td class="line1right bordered">16</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/newOrder.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,031</td><td class="line2right bordered">0,039</td><td class="line2right bordered">0,05</td><td class="line2right bordered">14</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">log out</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,03</td><td class="line1right bordered">0,037</td><td class="line1right bordered">0,05</td><td class="line1right bordered">14</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/signoff.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,03</td><td class="line2right bordered">0,037</td><td class="line2right bordered">0,05</td><td class="line2right bordered">14</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+</table>
+</div>
+</div>
+<div class="user-tableheader" style="width: 100%; height: 20px;" id="Searcher_trycatch">
+<div style="float:left" class="h1" id="statistics_summary_title">Searcher_trycatch</div>
+<a href="#Buyer" class="navigation previous" title="Buyer"></a>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="hierarchical_statistics_content_template">
+<tr>
+<th width="10%">Min</th><th width="10%">Moy</th><th width="10%">Max</th><th width="10%">Nb</th><th width="10%">Err</th><th width="10%">Err %</th><th width="10%">Profil SLA</th>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped virtualuser" style="margin-left: 00px">Searcher_trycatch</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,15</td><td class="line1right bordered">1,8</td><td class="line1right bordered">3,5</td><td class="line1right bordered">24</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container-blue" style="margin-left: 10px">Actions</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,175</td><td class="line2right bordered">0,345</td><td class="line2right bordered">0,579</td><td class="line2right bordered">112</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Enter store</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,054</td><td class="line1right bordered">0,061</td><td class="line1right bordered">0,155</td><td class="line1right bordered">132</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,027</td><td class="line2right bordered">0,03</td><td class="line2right bordered">0,103</td><td class="line2right bordered">136</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,027</td><td class="line1right bordered">0,031</td><td class="line1right bordered">0,127</td><td class="line1right bordered">132</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Search</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,055</td><td class="line2right bordered">0,062</td><td class="line2right bordered">0,243</td><td class="line2right bordered">279</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/searchProducts.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,055</td><td class="line1right bordered">0,062</td><td class="line1right bordered">0,243</td><td class="line1right bordered">279</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Try</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,056</td><td class="line2right bordered">0,063</td><td class="line2right bordered">0,181</td><td class="line2right bordered">268</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 30px">Great Companion link</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,056</td><td class="line1right bordered">0,063</td><td class="line1right bordered">0,181</td><td class="line1right bordered">268</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 40px">/jpetstore/shop/viewProduct.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,028</td><td class="line2right bordered">0,032</td><td class="line2right bordered">0,15</td><td class="line2right bordered">275</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 40px">/jpetstore/shop/viewItem.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,026</td><td class="line1right bordered">0,031</td><td class="line1right bordered">0,061</td><td class="line1right bordered">268</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>

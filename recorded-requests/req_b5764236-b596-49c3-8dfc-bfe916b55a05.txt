@@ -1,0 +1,11 @@
+GET http://practice.neotys.com/zkspringwf/resources/css-framework/css/layout-navtop-localleft.css HTTP/1.1
+Host: practice.neotys.com
+Proxy-Connection: keep-alive
+Authorization: Basic bGVhcm5lcjpuM290eXM=
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Referer: http://practice.neotys.com/zkspringwf/spring/intro
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: JSESSIONID=92EC88B3C57BB848E7DEF39680447BBD
+

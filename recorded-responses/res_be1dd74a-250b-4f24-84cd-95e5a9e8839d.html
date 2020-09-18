@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+
+<link rel="stylesheet" type="text/css" href="/zkspringwf/zkau/web/8802035b/zul/css/zk.wcs"/>
+
+<script type="text/javascript" src="/zkspringwf/zkau/web/8802035b/js/zk.wpd" charset="UTF-8">
+</script>
+<script type="text/javascript" src="/zkspringwf/zkau/web/8802035b/js/zul.lang.wpd" charset="UTF-8">
+</script>
+<!-- ZK 5.0.6-FL EE 2011012409 Evaluation Only -->
+<script type="text/javascript">zkdt('z_d270','/zkspringwf','/zkspringwf/zkau');</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><div id="mOaT2" class="z-temp"></div><script type="text/javascript">
+zkmx(
+['zul.utl.Style','mOaT2',{visible:false,src:'/zkspringwf/resources/css-framework/css/tools.css'},[]]);
+
+</script>
+<div id="mOaT3" class="z-temp"></div><script type="text/javascript">
+zkmx(
+['zul.utl.Style','mOaT3',{visible:false,src:'/zkspringwf/resources/css-framework/css/typo.css'},[]]);
+
+</script>
+<div id="mOaT4" class="z-temp"></div><script type="text/javascript">
+zkmx(
+['zul.utl.Style','mOaT4',{visible:false,src:'/zkspringwf/resources/css-framework/css/forms.css'},[]]);
+
+</script>
+<div id="mOaT5" class="z-temp"></div><script type="text/javascript">
+zkmx(
+['zul.utl.Style','mOaT5',{visible:false,src:'/zkspringwf/resources/css-framework/css/layout-navtop-localleft.css'},[]]);
+
+</script>
+<div id="mOaT6" class="z-temp"></div><script type="text/javascript">
+zkmx(
+['zul.utl.Style','mOaT6',{visible:false,src:'/zkspringwf/resources/css-framework/css/layout.css'},[]]);
+
+</script>
+<div id="mOaT7" class="z-temp"></div><script type="text/javascript">
+zkmx(
+['zul.utl.Style','mOaT7',{visible:false,src:'/zkspringwf/resources/styles/booking.css'},[]]);
+
+</script>
+<style space="preserve">
+div.springpage {
+	background:white none repeat scroll 0%;
+	margin:0pt auto;
+	padding:0pt;
+	text-align:center;
+	width:780px;
+}
+div.z-grid-header {
+	margin: 0;
+}
+div.z-grid-header table {
+	margin: 0;
+}
+div.z-grid-body {
+	margin: 0;
+}
+div.z-grid-body table {
+	margin: 0;
+}
+.buttonGroup {
+	margin-top:1.5em;
+	margin-bottom:0.5em;
+}
+	</style></head>
+<body id="mOaT9" class="tundra spring"><div id="mOaTa" class="z-temp"></div><script type="text/javascript">
+zkmx(
+['zul.wgt.Div','mOaTa',{sclass:'springpage'},[
+['zk.Native','mOaTb',{id:'header',prolog:'\n\t<div id="header" class="clearfix spring">\n\t\t',epilog:'\n\t</div>'},[
+['zk.Native','mOaTc',{id:'welcome',prolog:'<div id="welcome">\n\t\t\t<div class="left">Spring Travel: An ZK Spring Integration Reference Application</div>\n\t\t\t',epilog:'\n\t\t</div>\n\t\t'},[
+['zul.wgt.Div','mOaTd',{id:'loginout',sclass:'right'},[
+['zul.wgt.Span','mOaTe',{prolog:'\n\t\t\t\t'},[
+['zk.Native','mOaTf',{prolog:'\n\t            \t<a href="login" shape="rect">Login',epilog:'</a>'},[]]]]]]]],
+['zk.Native','mOaTh',{id:'branding',prolog:'<div id="branding" class="spring">\n\t\t\t<a shape="rect">',epilog:'</a>\n\t\t</div>'},[
+['zul.wgt.Image','mOaTi',{tooltiptext:'Spring Travel',src:'/zkspringwf/resources/images/header.jpg'},[]]]]]],
+['zk.Native','mOaTj',{id:'content',prolog:'\n\t<div id="content" class="clearfix spring">\n\t\t',epilog:'\n\t</div>'},[
+['zk.Native','mOaTk',{id:'local',prolog:'<div id="local" class="spring">\n\t\t\t',epilog:'\n\t\t\t<p>\n\t\t\t</p>\n\t\t</div>\n\t\t'},[
+['zk.Native','mOaTl',{prolog:'<a href="http://www.thespringexperience.com" shape="rect">\n\t\t\t\t',epilog:'\n\t\t\t</a>\n\t\t\t'},[
+['zul.wgt.Image','mOaTm',{tooltiptext:'generic hotel',src:'/zkspringwf/resources/images/diplomat.jpg'},[]]]],
+['zk.Native','mOaTo',{prolog:'<a href="http://www.thespringexperience.com" shape="rect">\n\t\t\t\t',epilog:'\n\t\t\t</a>'},[
+['zul.wgt.Image','mOaTp',{tooltiptext:'The Spring Experience',src:'/zkspringwf/resources/images/tse.gif'},[]]]]]],
+['zul.wgt.Div','mOaTr',{id:'main',style:'display:inline;float:right;width:500px'},[
+['zul.wgt.Div','mOaTz',{sclass:'section',prolog:'\n\t'},[
+['zk.Native','mOaT00',{prolog:'\n\t\t<h2>Hotel Results</h2>\n\t\t<p>\n\t\t\t',epilog:'\n\t\t</p>'},[
+['zul.wgt.Toolbarbutton','mOaT10',{$onClick:true,label:'Change Search'},[]]]],
+['zul.wgt.Div','mOaT20',{prolog:'\n\t\t\t'},[
+['zul.grid.Grid','mOaT30',{id:'hotelsGrid',$$onDataLoading:true,$$onInnerWidth:false,$$onRender:true,$$onScrollPos:false,$$onChangePageSize:true,prolog:'\n\t\t\t\t',span:false,_topPad:0,_totalSize:5,_offset:0},[
+['zul.grid.Columns','mOaT40',{$$onColSize:false,height:'27px'},[
+['zul.grid.Column','mOaT50',{$onSort:true,$onGroup:true,label:'Name'},[]],
+['zul.grid.Column','mOaT60',{$onSort:true,$onGroup:true,label:'Address'},[]],
+['zul.grid.Column','mOaT70',{$onSort:true,$onGroup:true,label:'City, State'},[]],
+['zul.grid.Column','mOaT80',{$onSort:true,$onGroup:true,label:'Zip'},[]],
+['zul.grid.Column','mOaT90',{$onSort:true,$onGroup:true,label:'Action'},[]]]],
+['zul.grid.Rows','mOaTa0',{_offset:0,visibleItemCount:5},[
+['zul.grid.Row','mOaTb0',{},[
+['zul.wgt.Label','mOaTc0',{value:'70 Park Avenue Hotel'},[]],
+['zul.wgt.Label','mOaTd0',{value:'70 Park Avenue'},[]],
+['zul.wgt.Label','mOaTe0',{value:'NY, NY, USA'},[]],
+['zul.wgt.Label','mOaTf0',{value:'10011'},[]],
+['zul.wgt.Toolbarbutton','mOaTg0',{$onClick:true,label:'View Hotel'},[]]]],
+['zul.grid.Row','mOaTh0',{},[
+['zul.wgt.Label','mOaTi0',{value:'Chilworth Manor'},[]],
+['zul.wgt.Label','mOaTj0',{value:'The Cottage, Southampton Business Park'},[]],
+['zul.wgt.Label','mOaTk0',{value:'Southampton, Hants, UK'},[]],
+['zul.wgt.Label','mOaTl0',{value:'SO16 7JF'},[]],
+['zul.wgt.Toolbarbutton','mOaTm0',{$onClick:true,label:'View Hotel'},[]]]],
+['zul.grid.Row','mOaTn0',{},[
+['zul.wgt.Label','mOaTo0',{value:'Conrad Miami'},[]],
+['zul.wgt.Label','mOaTp0',{value:'1395 Brickell Ave'},[]],
+['zul.wgt.Label','mOaTq0',{value:'Miami, FL, USA'},[]],
+['zul.wgt.Label','mOaTr0',{value:'33131'},[]],
+['zul.wgt.Toolbarbutton','mOaTs0',{$onClick:true,label:'View Hotel'},[]]]],
+['zul.grid.Row','mOaTt0',{},[
+['zul.wgt.Label','mOaTu0',{value:'Conrad Treasury Place'},[]],
+['zul.wgt.Label','mOaTv0',{value:'William & George Streets'},[]],
+['zul.wgt.Label','mOaTw0',{value:'Brisbane, QLD, Australia'},[]],
+['zul.wgt.Label','mOaTx0',{value:'4001'},[]],
+['zul.wgt.Toolbarbutton','mOaTy0',{$onClick:true,label:'View Hotel'},[]]]],
+['zul.grid.Row','mOaTz0',{},[
+['zul.wgt.Label','mOaT_1',{value:'Doubletree'},[]],
+['zul.wgt.Label','mOaT01',{value:'Tower Place, Buckhead'},[]],
+['zul.wgt.Label','mOaT11',{value:'Atlanta, GA, USA'},[]],
+['zul.wgt.Label','mOaT21',{value:'30305'},[]],
+['zul.wgt.Toolbarbutton','mOaT31',{$onClick:true,label:'View Hotel'},[]]]]]]]],
+['zk.Native','mOaT41',{prolog:'\n\t\t\t\t<div class="buttonGroup">\n\t\t\t\t\t',epilog:'\n\t\t\t\t</div>'},[
+['zk.Native','mOaT51',{prolog:'\n\t\t\t\t\t'},[]],
+['zul.wgt.Button','mOaT61',{$onClick:true,label:'More Results'},[]]]]]]]]]]]],
+['zk.Native','mOaTs',{id:'footer',prolog:'\n\t<div id="footer" class="clearfix spring">\n\t\t',epilog:'\n\t</div>'},[
+['zk.Native','mOaTt',{prolog:'<a href="http://www.springframework.org" shape="rect">',epilog:'</a>\n\t\t'},[
+['zul.wgt.Image','mOaTu',{tooltiptext:'Powered by Spring',src:'/zkspringwf/resources/images/powered-by-spring.png'},[]]]],
+['zk.Native','mOaTw',{prolog:'<a href="http://www.zkoss.org" shape="rect">',epilog:'</a>'},[
+['zul.wgt.Image','mOaTx',{height:'30px',tooltiptext:'ZK Powered',src:'/zkspringwf/resources/images/zkpowered_s.png'},[]]]]]]]]);
+
+</script>
+<noscript>
+<div class="noscript"><p>Sorry, JavaScript must be enabled.<br/>Change your browser options, then <a href="">try again</a>.</p></div>
+</noscript><script type="text/javascript">
+zkmb(true);try{zkx(
+[1,'mOaT_',{},[
+[1,'mOaT0',{},[
+['zk.RefWidget','mOaT2',{},[]],
+['zk.RefWidget','mOaT3',{},[]],
+['zk.RefWidget','mOaT4',{},[]],
+['zk.RefWidget','mOaT5',{},[]],
+['zk.RefWidget','mOaT6',{},[]],
+['zk.RefWidget','mOaT7',{},[]]]],
+[1,'mOaT9',{},[
+['zk.RefWidget','mOaTa',{},[]]]]]]);
+}finally{zkme();}</script></body>
+</html>
+
